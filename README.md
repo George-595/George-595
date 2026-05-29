@@ -1,20 +1,18 @@
 <div align="center">
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,50:6366f1,100:06b6d4&text=George%20Allan&fontColor=ffffff&fontSize=54&fontAlignY=38&desc=Geology%20grad%20turned%20Software%20Engineer%20%C2%B7%20No%20Code%20Sage&descSize=18&descAlignY=58"
-    alt="George Allan header"
-  />
+  <img src="./banner-strata.png" width="100%" alt="George Allan — Geology grad turned Software Engineer" />
 </div>
 
 <div align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=24&pause=1200&color=6366F1&center=true&vCenter=true&width=900&lines=From+rocks+to+software;Self-taught%2C+with+AI+as+my+co-pilot;Choices+beat+talent.+Shipping+beats+credentials.;Associate+Software+Engineer+%40+No+Code+Sage"
-    alt="Typing introduction"
+    src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=22&pause=1200&color=2563EB&center=true&vCenter=true&width=900&lines=From+rocks+to+software;Self-taught%2C+with+AI+as+my+co-pilot;Choices+beat+talent.+Shipping+beats+credentials."
+    alt="What I'm about"
   />
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=George-595&label=Profile%20Views&color=6366f1&style=for-the-badge" alt="Profile views" />
+  <a href="https://www.nocodesage.com/"><img src="https://img.shields.io/badge/Website-nocodesage.com-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://www.linkedin.com/in/george-allan-3479a0237"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <img src="https://komarev.com/ghpvc/?username=George-595&label=Profile%20Views&color=2563eb&style=for-the-badge" alt="Profile views" />
 </div>
 
 ## About Me
@@ -67,26 +65,16 @@ I studied **Geology** (BSc, University of Southampton), then taught myself to co
 ![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)
 
 ### Tools & Workflow
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![Warp](https://img.shields.io/badge/Warp-01A4FF?style=for-the-badge&logo=warp&logoColor=white)
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
+![Wispr Flow](https://img.shields.io/badge/Wispr_Flow-5B8DEF?style=for-the-badge)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
 
-## GitHub Analytics
+## GitHub Activity
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=George-595&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-      </td>
-      <td>
-        <img height="170" src="https://streak-stats.demolab.com?user=George-595&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=George-595&theme=react-dark&hide_border=true&area=true" alt="Activity graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=George-595&theme=react-dark&hide_border=true&area=true&color=2563eb&line=2563eb&point=ffffff" alt="Contribution activity graph" />
 </div>

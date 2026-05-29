@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" fill="none" role="img" aria-label="George Allan — Geology grad turned Software Engineer, No Code Sage">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09090b"/>
+      <stop offset="1" stop-color="#18181b"/>
+    </linearGradient>
+    <linearGradient id="leftfade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#09090b" stop-opacity="0.85"/>
+      <stop offset="0.62" stop-color="#09090b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+
+  <!-- topographic strata (geology) — monochrome zinc, deliberately faint -->
+  <g stroke="#3f3f46" fill="none" stroke-width="1.3" aria-hidden="true">
+    <path d="M-20 48 C 230 16, 440 80, 650 50 S 1020 14, 1230 58" opacity="0.45"/>
+    <path d="M-20 86 C 240 54, 450 118, 660 88 S 1030 52, 1230 96" opacity="0.40"/>
+    <path d="M-20 128 C 250 96, 460 160, 670 130 S 1040 94, 1230 138" opacity="0.34"/>
+    <path d="M-20 174 C 260 142, 470 206, 680 176 S 1050 140, 1230 184" opacity="0.28"/>
+    <path d="M-20 224 C 270 192, 480 256, 690 226 S 1060 190, 1230 234" opacity="0.22"/>
+  </g>
+  <!-- one accent contour line picks out the seam where rock becomes grid -->
+  <path d="M-20 128 C 250 96, 460 160, 670 130 S 1040 94, 1230 138" stroke="#2563eb" stroke-width="1.4" fill="none" opacity="0.55" aria-hidden="true"/>
+
+  <!-- software grid dissolving in from the right (monochrome, faint) -->
+  <g stroke="#27272a" stroke-width="1" aria-hidden="true">
+    <path d="M900 0 V280 M960 0 V280 M1020 0 V280 M1080 0 V280 M1140 0 V280" opacity="0.9"/>
+    <path d="M880 56 H1200 M880 112 H1200 M880 168 H1200 M880 224 H1200" opacity="0.9"/>
+  </g>
+  <!-- a few nodes, single blue accent, used sparingly -->
+  <g fill="#2563eb" aria-hidden="true">
+    <circle cx="1020" cy="112" r="2.6"/><circle cx="1140" cy="168" r="2.6"/><circle cx="960" cy="224" r="2.6" opacity="0.6"/>
+  </g>
+
+  <!-- left scrim keeps type crisp over the motif -->
+  <rect width="780" height="280" fill="url(#leftfade)" aria-hidden="true"/>
+
+  <!-- typography: Inter, tight tracking, clear weight hierarchy -->
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="72" y="128" fill="#fafafa" font-size="64" font-weight="800" letter-spacing="-2.4">George Allan</text>
+    <rect x="75" y="148" width="64" height="3" rx="1.5" fill="#2563eb"/>
+    <text x="76" y="186" fill="#a1a1aa" font-size="23" font-weight="500" letter-spacing="-0.2">Geology grad turned Software Engineer</text>
+    <text x="76" y="222" fill="#a1a1aa" font-size="15" font-weight="600" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" letter-spacing="0.4">rocks &#8594; software &#183; No Code Sage</text>
+  </g>
+</svg>
