@@ -46,6 +46,17 @@ I studied **Geology** (BSc, University of Southampton), then taught myself to co
   </tr>
 </table>
 
+## Projects
+
+### Quore Geotechnical — *instant, client-ready site intelligence*
+
+The product that turned me from a geotechnical engineer into a software engineer. Field crews used to scrawl borehole logs on paper that came back to the office mud-smeared and half-illegible, then someone retyped it all by hand into HoleBASE / OpenGround — hours per site. Quore kills that loop: snap a photo of the site notes, an **AI handwriting model** extracts the data, and the app exports standards-compliant **`.ags`** files straight into the industry databases. No retyping.
+
+<a href="https://quoresoftware.com/quore-geotechnical"><img src="https://img.shields.io/badge/Live-quoresoftware.com-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live site" /></a>
+<a href="https://github.com/George-595/quore-geotechnical-mac-public"><img src="https://img.shields.io/badge/macOS_app-181717?style=for-the-badge&logo=apple&logoColor=white" alt="macOS app repo" /></a>
+<a href="https://github.com/George-595/quore-geotechnical-windows-public"><img src="https://img.shields.io/badge/Windows_app-181717?style=for-the-badge&logo=windows&logoColor=white" alt="Windows app repo" /></a>
+<a href="https://github.com/George-595/ags_oss_validateviewedit"><img src="https://img.shields.io/badge/AGS4.2_Toolkit-181717?style=for-the-badge&logo=github&logoColor=white" alt="AGS4.2 validator, viewer and editor" /></a>
+
 ## Core Stack
 
 ### Languages
