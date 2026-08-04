@@ -17,7 +17,7 @@
 
 ## About Me
 
-I'm a software engineer at **No Code Sage**, an AI-first engineering consultancy — and I got here without a CS degree.
+I'm a software engineer at **NCS**, an AI-first engineering consultancy — and I got here without a CS degree.
 
 I studied **Geology** (BSc, University of Southampton), then taught myself to code the practical way. It started with crypto trading systems — first in PineScript, then graduating to real Python by getting AI to translate my own scripts. Three years of side projects later, while working as a geotechnical engineer, I built an app that turned muddy, handwritten borehole field notes into structured `.ags` data using an AI handwriting model. That's when it clicked: the thing I built on weekends for free was the thing I should be paid to do on a Monday.
 
@@ -40,7 +40,7 @@ I studied **Geology** (BSc, University of Southampton), then taught myself to co
       <ul>
         <li>BSc Geology &mdash; University of Southampton</li>
         <li>Geotechnical Engineer &mdash; Ian Farmer Associates (RSK)</li>
-        <li>Associate Software Engineer &mdash; No Code Sage</li>
+        <li>Associate Software Engineer &mdash; NCS</li>
       </ul>
     </td>
   </tr>
