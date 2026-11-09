@@ -32,6 +32,10 @@ A multi-agent orchestration system for Claude Code that I built. Hand it a pile 
 
 ## Also built
 
+**Glasswork UI**: the React component kit and app template I build with. Two skins, light and dark, and an assistant that acts through the app.
+
+<a href="https://github.com/George-595/glasswork-ui"><img src="./assets/glasswork-loop.webp" width="100%" alt="Glasswork UI in motion: a glass dashboard arriving through frost, charts drawn by a pen plotter, and the assistant drafting a card." /></a>
+
 **Quore Geotechnical**: snap a photo of handwritten borehole logs and AI turns them into industry-standard `.ags` data.
 
 <a href="https://quoresoftware.com/quore-geotechnical"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-quore-light.svg" /><img src="./assets/link-quore.svg" height="38" alt="quoresoftware.com" /></picture></a>
