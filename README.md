@@ -41,13 +41,11 @@ I studied **Geology** at Southampton and taught myself to code the long way roun
 
 ### 🐝 Hive — *multi-agent orchestration for Claude Code*
 
-I designed and built Hive inside NCS's internal engineering toolkit, and it's now how our whole team works. Hive coordinates a team of Claude Code agents on a single piece of work, so engineers direct the work instead of babysitting one chat at a time.
+I designed and built Hive, a multi-agent orchestration system that's been adopted across the company. Hive coordinates a team of Claude Code agents on a single piece of work, so engineers direct the work instead of babysitting one chat at a time.
 
 - **Token-efficient by design:** built around prompt caching, so agents reuse shared context instead of paying for it again on every call
 - **Resource-aware:** manages CPU load so running many agents doesn't grind a dev machine to a halt
-- **Adopted team-wide:** it started as my own workflow and became the team's default way of building
-
-<sub>Hive is internal to NCS, so there's no public repo, but I'm happy to talk through how it works.</sub>
+- **Adopted company-wide:** it started as my own workflow and became the default way of building
 
 ### Quore Geotechnical — *instant, client-ready site intelligence*
 
