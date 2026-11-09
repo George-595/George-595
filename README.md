@@ -51,6 +51,12 @@ I designed and built Hive, a multi-agent orchestration system that's been adopte
 - **Resource-aware:** manages CPU load so running many agents doesn't grind a dev machine to a halt
 - **Adopted company-wide:** it started as my own workflow and became the default way of building
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hive-architecture.png" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hive-architecture-light.png" />
+  <img src="./assets/hive-architecture.png" width="100%" alt="Hive architecture: inputs from you, Slack and Teams, tickets and nightly CI flow into the Hive orchestrator, which splits work into jobs, routes each to a model, schedules against machine resources and runs Claude Code workers in their own git worktrees, producing pull requests, a live panel, a Build Room dashboard, and spoken and Slack updates." />
+</picture>
+
 ### Quore Geotechnical — *instant, client-ready site intelligence*
 
 The product that turned me from a geotechnical engineer into a software engineer. Borehole logs came back from site mud-smeared and half-illegible, and someone retyped them by hand into HoleBASE / OpenGround, which took hours per site. With Quore you snap a photo of the notes, an **AI handwriting model** extracts the data, and the app exports standards-compliant **`.ags`** files straight into the industry databases.
