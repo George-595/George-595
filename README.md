@@ -22,7 +22,7 @@ I studied **Geology** at Southampton and taught myself to code the long way roun
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>What I'm About</h3>
+      <b>What I'm About</b>
       <ul>
         <li>Agents are only as good as their harness</li>
         <li>Secure, correct code over quick hacks</li>
@@ -31,7 +31,7 @@ I studied **Geology** at Southampton and taught myself to code the long way roun
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>The Roundabout Path</h3>
+      <b>The Roundabout Path</b>
       <ul>
         <li>BSc Geology &mdash; University of Southampton</li>
         <li>Geotechnical Engineer &mdash; Ian Farmer Associates (RSK)</li>
