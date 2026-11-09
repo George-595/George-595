@@ -52,7 +52,6 @@ I designed and built Hive, a multi-agent orchestration system that's been adopte
 The product that turned me from a geotechnical engineer into a software engineer. Borehole logs came back from site mud-smeared and half-illegible, and someone retyped them by hand into HoleBASE / OpenGround, which took hours per site. With Quore you snap a photo of the notes, an **AI handwriting model** extracts the data, and the app exports standards-compliant **`.ags`** files straight into the industry databases.
 
 <a href="https://quoresoftware.com/quore-geotechnical"><img src="https://img.shields.io/badge/Website-quoresoftware.com-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Quore Geotechnical website" /></a>
-<a href="https://github.com/George-595/ags_oss_validateviewedit"><img src="https://img.shields.io/badge/AGS4.2_Toolkit-181717?style=for-the-badge&logo=github&logoColor=white" alt="AGS4.2 validator, viewer and editor" /></a>
 
 ### Furniture Friends — *AI inventory management for a local charity*
 
