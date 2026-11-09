@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="./banner-strata.png" width="100%" alt="George Allan — Agentic Engineer at NCS. Building the harnesses teams ship with." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./banner-strata.png" />
+    <source media="(prefers-color-scheme: light)" srcset="./banner-strata-light.png" />
+    <img src="./banner-strata.png" width="100%" alt="George Allan — Agentic Engineer at NCS. Building the harnesses teams ship with." />
+  </picture>
 </div>
 
 <p align="center"><b>Choices beat talent. Shipping beats credentials.</b></p>
