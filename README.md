@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./banner-strata.png" />
     <source media="(prefers-color-scheme: light)" srcset="./banner-strata-light.png" />
-    <img src="./banner-strata.png" width="100%" alt="George Allan — Agentic Engineer at NCS. Building the harnesses teams ship with." />
+    <img src="./banner-strata.png" width="100%" alt="George Allan — Software Engineer at NCS. Building the harnesses teams ship with." />
   </picture>
 </div>
 
@@ -15,9 +15,9 @@
 
 ## About
 
-I'm an agentic engineer at **NCS**. I build the harnesses that let a whole engineering team ship with AI agents, and I got here without a CS degree.
+I'm a software engineer at **NCS**, specialising in agentic systems: the harnesses that let a whole engineering team ship with AI agents. I got here without a CS degree.
 
-**Geology BSc** → **geotechnical engineer** → **self-taught developer** → **agentic engineer**
+**Geology BSc** → **geotechnical engineer** → **self-taught developer** → **software engineer**
 
 ## 🐝 Hive
 
