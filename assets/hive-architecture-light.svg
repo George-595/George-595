@@ -1,178 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="950" viewBox="0 0 1200 950" fill="none" role="img" aria-label="Hive architecture: inputs from you, Slack and Teams, tickets and nightly CI flow into the Hive orchestrator, which splits work into jobs, routes each to a model, schedules against machine resources and runs Claude Code workers in their own git worktrees, producing pull requests, a live panel, a Build Room dashboard and spoken and Slack updates.">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="950" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f4f4f5"/>
-    </linearGradient>
-    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#a1a1aa"/></marker>
-    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2563eb"/></marker>
-    <style>
-      .t{font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
-      .m{font-family:'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace}
-      .h{fill:#09090b;font-weight:700}
-      .s{fill:#52525b}
-      .k{fill:#1d4ed8;font-weight:700}
-      .card{fill:#ffffff;stroke:#d4d4d8}
-      .lbl{fill:#71717a;font-size:13px;letter-spacing:1.5px;font-weight:600}
-    </style>
-  </defs>
-  <rect width="1200" height="950" rx="14" fill="url(#bg)"/>
-
-  <g class="t">
-  <!-- ============ INPUTS ============ -->
-  <text x="40" y="44" class="m lbl">INPUT</text>
-  <g font-size="15">
-    <rect x="40"  y="58" width="265" height="58" rx="10" class="card"/>
-    <text x="172" y="83" text-anchor="middle" class="h">You</text>
-    <text x="172" y="104" text-anchor="middle" class="s" font-size="13">typed, or by voice</text>
-
-    <rect x="325" y="58" width="265" height="58" rx="10" class="card"/>
-    <text x="457" y="83" text-anchor="middle" class="h">Slack &amp; Teams</text>
-    <text x="457" y="104" text-anchor="middle" class="s" font-size="13">monitored, treated as untrusted</text>
-
-    <rect x="610" y="58" width="265" height="58" rx="10" class="card"/>
-    <text x="742" y="83" text-anchor="middle" class="h">Tickets, notes &amp; files</text>
-    <text x="742" y="104" text-anchor="middle" class="s" font-size="13">recorded verbatim first</text>
-
-    <rect x="895" y="58" width="265" height="58" rx="10" class="card"/>
-    <text x="1027" y="83" text-anchor="middle" class="h">Nightly CI failures</text>
-    <text x="1027" y="104" text-anchor="middle" class="s" font-size="13">picked up automatically</text>
-  </g>
-  <g stroke="#a1a1aa" stroke-width="1.6">
-    <path d="M172 116 V166" marker-end="url(#a)" marker-start="url(#a)"/>
-    <path d="M457 116 V166" marker-end="url(#a)"/>
-    <path d="M742 116 V166" marker-end="url(#a)"/>
-    <path d="M1027 116 V166" marker-end="url(#a)"/>
-  </g>
-  <text x="182" y="146" class="s" font-size="12">asks only you</text>
-
-  <!-- ============ ORCHESTRATOR ============ -->
-  <rect x="40" y="172" width="1120" height="336" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
-  <text x="70" y="214" class="h" font-size="26" letter-spacing="-0.6">🐝 Hive orchestrator</text>
-  <text x="1130" y="203" text-anchor="end" class="s" font-size="14">plans, routes and supervises; edits no code itself</text>
-  <text x="1130" y="223" text-anchor="end" class="s" font-size="14">runs on a laptop, or unattended 24/7 on a server</text>
-
-  <!-- pipeline -->
-  <g font-size="14" font-weight="600">
-    <rect x="70"  y="240" width="160" height="40" rx="20" fill="#dbeafe"/><text x="150"  y="265" text-anchor="middle" fill="#1e3a8a">1 · Split into jobs</text>
-    <rect x="248" y="240" width="160" height="40" rx="20" fill="#dbeafe"/><text x="328"  y="265" text-anchor="middle" fill="#1e3a8a">2 · Route to a model</text>
-    <rect x="426" y="240" width="160" height="40" rx="20" fill="#dbeafe"/><text x="506"  y="265" text-anchor="middle" fill="#1e3a8a">3 · Schedule</text>
-    <rect x="604" y="240" width="160" height="40" rx="20" fill="#dbeafe"/><text x="684"  y="265" text-anchor="middle" fill="#1e3a8a">4 · Spawn workers</text>
-    <rect x="782" y="240" width="160" height="40" rx="20" fill="#dbeafe"/><text x="862"  y="265" text-anchor="middle" fill="#1e3a8a">5 · Supervise</text>
-    <rect x="960" y="240" width="170" height="40" rx="20" fill="#2563eb"/><text x="1045" y="265" text-anchor="middle" fill="#ffffff">6 · Merge &amp; retire</text>
-  </g>
-  <g fill="#93c5fd" font-size="16"><text x="233" y="266">›</text><text x="411" y="266">›</text><text x="589" y="266">›</text><text x="767" y="266">›</text><text x="945" y="266">›</text></g>
-
-  <!-- subsystems -->
-  <g font-size="14">
-    <rect x="70" y="300" width="200" height="186" rx="10" fill="#ffffff" stroke="#bfdbfe"/>
-    <text x="88" y="328" class="k" font-size="16">Model router</text>
-    <text x="88" y="356" class="s">job kind → model + effort</text>
-    <text x="88" y="380" class="s">Opus for core, security</text>
-    <text x="88" y="402" class="s">and design work</text>
-    <text x="88" y="426" class="s">Sonnet for features, tests</text>
-    <text x="88" y="450" class="s">only ever escalates</text>
-
-    <rect x="284" y="300" width="200" height="186" rx="10" fill="#ffffff" stroke="#bfdbfe"/>
-    <text x="302" y="328" class="k" font-size="16">Resource scheduler</text>
-    <text x="302" y="356" class="s">worker cap</text>
-    <text x="302" y="380" class="s">CPU slots gate heavy runs</text>
-    <text x="302" y="404" class="s">memory &amp; CPU ceilings</text>
-    <text x="302" y="428" class="s">holds new workers under</text>
-    <text x="302" y="450" class="s">memory pressure</text>
-
-    <rect x="498" y="300" width="200" height="186" rx="10" fill="#ffffff" stroke="#bfdbfe"/>
-    <text x="516" y="328" class="k" font-size="16">Ledger</text>
-    <text x="516" y="356" class="s">on-disk jobs, workers,</text>
-    <text x="516" y="378" class="s">queue and decisions</text>
-    <text x="516" y="402" class="s">your words kept verbatim</text>
-    <text x="516" y="426" class="s">recall rebuilds context</text>
-    <text x="516" y="448" class="s">after compaction</text>
-
-    <rect x="712" y="300" width="200" height="186" rx="10" fill="#ffffff" stroke="#bfdbfe"/>
-    <text x="730" y="328" class="k" font-size="16">Signed control</text>
-    <text x="730" y="356" class="s">single-use, verified</text>
-    <text x="730" y="378" class="s">commands to workers:</text>
-    <text x="730" y="402" class="s">compact · goal · loop ·</text>
-    <text x="730" y="424" class="s">model switch</text>
-    <text x="730" y="448" class="s">run at turn boundaries</text>
-
-    <rect x="926" y="300" width="204" height="186" rx="10" fill="#ffffff" stroke="#bfdbfe"/>
-    <text x="944" y="328" class="k" font-size="16">Self-healing</text>
-    <text x="944" y="356" class="s">snapshot → compact →</text>
-    <text x="944" y="378" class="s">re-brief from the ledger</text>
-    <text x="944" y="402" class="s">keep-warm pings hold</text>
-    <text x="944" y="424" class="s">the prompt cache</text>
-    <text x="944" y="448" class="s">watchdog + self-relaunch</text>
-  </g>
-
-  <!-- orchestrator <-> workers -->
-  <path d="M560 508 V570" stroke="#2563eb" stroke-width="1.6" marker-end="url(#b)"/>
-  <path d="M640 570 V508" stroke="#2563eb" stroke-width="1.6" marker-end="url(#b)"/>
-  <text x="548" y="545" text-anchor="end" class="s" font-size="13">brief from the ledger</text>
-  <text x="652" y="545" class="m" fill="#1d4ed8" font-size="12">STARTED · PROGRESS · QUESTION · DONE</text>
-
-  <!-- ============ WORKERS ============ -->
-  <rect x="40" y="576" width="1120" height="190" rx="14" fill="none" stroke="#d4d4d8"/>
-  <text x="70" y="608" class="h" font-size="17">Workers</text>
-  <text x="146" y="608" class="s" font-size="14">Claude Code sessions, each in its own git worktree</text>
-  <text x="1130" y="608" text-anchor="end" class="s" font-size="14">terminal tabs · VS Code · background</text>
-  <g font-size="15">
-    <rect x="70" y="626" width="200" height="116" rx="10" class="card"/>
-    <circle cx="92" cy="652" r="5" fill="#22c55e"/><text x="106" y="657" class="h">Worker 1</text>
-    <text x="88" y="684" class="s" font-size="13">feature · Sonnet</text>
-    <text x="88" y="708" fill="#15803d" font-size="13">building</text>
-
-    <rect x="284" y="626" width="200" height="116" rx="10" class="card"/>
-    <circle cx="306" cy="652" r="5" fill="#3b82f6"/><text x="320" y="657" class="h">Worker 2</text>
-    <text x="302" y="684" class="s" font-size="13">tests · Sonnet</text>
-    <text x="302" y="708" fill="#1d4ed8" font-size="13">PR open, CI running</text>
-
-    <rect x="498" y="626" width="200" height="116" rx="10" class="card"/>
-    <circle cx="520" cy="652" r="5" fill="#f59e0b"/><text x="534" y="657" class="h">Worker 3</text>
-    <text x="516" y="684" class="s" font-size="13">security · Opus</text>
-    <text x="516" y="708" fill="#b45309" font-size="13">waiting · cache kept warm</text>
-
-    <rect x="712" y="626" width="200" height="116" rx="10" fill="none" stroke="#d4d4d8" stroke-dasharray="4 5"/>
-    <text x="730" y="657" fill="#71717a" font-weight="700">Worker N</text>
-    <text x="730" y="684" class="s" font-size="13">up to the cap</text>
-    <text x="730" y="708" fill="#71717a" font-size="13">more jobs queue in order</text>
-
-    <rect x="926" y="626" width="204" height="116" rx="10" fill="#ffffff" stroke="#2563eb" stroke-dasharray="3 3"/>
-    <text x="944" y="657" class="h">Browser agent</text>
-    <text x="944" y="684" class="s" font-size="13">drives a real browser</text>
-    <text x="944" y="708" class="s" font-size="13">to check UI for workers</text>
-  </g>
-  <path d="M912 684 H922" stroke="#2563eb" stroke-width="1.4" stroke-dasharray="2 2"/>
-
-  <!-- workers -> outputs -->
-  <path d="M600 766 V800" stroke="#a1a1aa" stroke-width="1.6" marker-end="url(#a)"/>
-
-  <!-- ============ OUTPUTS ============ -->
-  <text x="40" y="796" class="m lbl">OUTPUT</text>
-  <g font-size="15">
-    <rect x="40"  y="806" width="208" height="64" rx="10" fill="#eff6ff" stroke="#2563eb"/>
-    <text x="144" y="832" text-anchor="middle" class="h">Pull requests</text>
-    <text x="144" y="854" text-anchor="middle" class="s" font-size="13">CI, auto-merge, cleanup</text>
-
-    <rect x="268" y="806" width="208" height="64" rx="10" class="card"/>
-    <text x="372" y="832" text-anchor="middle" class="h">Live panel</text>
-    <text x="372" y="854" text-anchor="middle" class="s" font-size="13">ETAs, CI, context, queue</text>
-
-    <rect x="496" y="806" width="208" height="64" rx="10" class="card"/>
-    <text x="600" y="832" text-anchor="middle" class="h">Build Room</text>
-    <text x="600" y="854" text-anchor="middle" class="s" font-size="13">progress with screenshots</text>
-
-    <rect x="724" y="806" width="208" height="64" rx="10" class="card"/>
-    <text x="828" y="832" text-anchor="middle" class="h">Spoken updates</text>
-    <text x="828" y="854" text-anchor="middle" class="s" font-size="13">local voice, never over you</text>
-
-    <rect x="952" y="806" width="208" height="64" rx="10" class="card"/>
-    <text x="1056" y="832" text-anchor="middle" class="h">Slack updates</text>
-    <text x="1056" y="854" text-anchor="middle" class="s" font-size="13">gated and rate-capped</text>
-  </g>
-
-  <!-- footer stats -->
-  <line x1="40" y1="896" x2="1160" y2="896" stroke="#e4e4e7"/>
-  <text x="600" y="926" text-anchor="middle" class="m" fill="#52525b" font-size="14">~148k lines · 1,800+ test cases · 8 job kinds · 3 hosts · macOS · Windows (WSL) · Linux</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="640" viewBox="0 0 1520 640" fill="none" role="img" aria-label="Hive: work from you, Slack and Teams, tickets and nightly CI goes into Hive, which picks the model, runs in auto mode while you are away, guards CPU and RAM so the machine never chokes, keeps caches warm, never forgets and heals itself. It runs a team of Claude Code workers and a browser agent, and ships merged pull requests, a live panel and voice and Slack updates.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1520" y2="640" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f4f4f5"/></linearGradient><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#a1a1aa"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#2563eb"/></marker><marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#d97706"/></marker></defs>
+<rect width="1520" height="640" rx="14" fill="url(#bg)"/>
+<text x="40.0" y="58.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#71717a" letter-spacing="1.5">INPUT</text>
+<text x="1020.0" y="58.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#71717a" letter-spacing="1.5">WORKERS</text>
+<text x="1310.0" y="58.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#71717a" letter-spacing="1.5">OUTPUT</text>
+<circle cx="74" cy="150" r="28" fill="#dbeafe"/>
+<circle cx="74" cy="144" r="6" stroke="#1d4ed8" stroke-width="2.2" fill="none"/><path d="M63 163 Q74 147 85 163" stroke="#1d4ed8" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<text x="114.0" y="156.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#09090b" >You</text>
+<path d="M290 150 C380 150, 400 310, 470 310" stroke="#a1a1aa" stroke-width="1.6" fill="none" marker-end="url(#ar)"/>
+<circle cx="74" cy="250" r="28" fill="#dbeafe"/>
+<path d="M61 240 h26 a3 3 0 0 1 3 3 v13 a3 3 0 0 1 -3 3 h-15 l-7 6 v-6 h-4 a3 3 0 0 1 -3 -3 v-13 a3 3 0 0 1 3 -3z" stroke="#1d4ed8" stroke-width="2.2" fill="none" stroke-linejoin="round"/><circle cx="68" cy="249" r="1.8" fill="#1d4ed8"/><circle cx="74" cy="249" r="1.8" fill="#1d4ed8"/><circle cx="80" cy="249" r="1.8" fill="#1d4ed8"/>
+<text x="114.0" y="256.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#09090b" >Slack &amp; Teams</text>
+<path d="M290 250 C380 250, 400 310, 470 310" stroke="#a1a1aa" stroke-width="1.6" fill="none" marker-end="url(#ar)"/>
+<circle cx="74" cy="350" r="28" fill="#dbeafe"/>
+<path d="M65 337 h12 l6 6 v20 h-18z M77 337 v6 h6" stroke="#1d4ed8" stroke-width="2.2" fill="none" stroke-linejoin="round"/><path d="M69 351 h10 M69 356 h10" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round"/>
+<text x="114.0" y="356.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#09090b" >Tickets &amp; notes</text>
+<path d="M290 350 C380 350, 400 310, 470 310" stroke="#a1a1aa" stroke-width="1.6" fill="none" marker-end="url(#ar)"/>
+<circle cx="74" cy="450" r="28" fill="#dbeafe"/>
+<circle cx="74" cy="450" r="12" stroke="#1d4ed8" stroke-width="2.2" fill="none"/><path d="M69 445 L79 455 M79 445 L69 455" stroke="#dc2626" stroke-width="2.6" stroke-linecap="round"/>
+<text x="114.0" y="456.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#09090b" >Nightly CI</text>
+<path d="M290 450 C380 450, 400 310, 470 310" stroke="#a1a1aa" stroke-width="1.6" fill="none" marker-end="url(#ar)"/>
+<path d="M640.3 85.0 L715.7 128.5 L715.7 215.5 L640.3 259.0 L565.0 215.5 L565.0 128.5 Z" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.6"/>
+<g stroke="#1d4ed8" stroke-width="2.4" fill="none" stroke-linecap="round"><path d="M640.3256628518316 150.00000000000006 V138.00000000000006 M640.3256628518316 138.00000000000006 L628.3256628518316 126.00000000000006 M640.3256628518316 138.00000000000006 L652.3256628518316 126.00000000000006"/><circle cx="627.3256628518316" cy="123.00000000000006" r="4.5"/><circle cx="653.3256628518316" cy="123.00000000000006" r="4.5"/><circle cx="640.3256628518316" cy="153.00000000000006" r="4.5"/></g>
+<text x="640.3" y="182.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#09090b" >Picks the model</text>
+<text x="640.3" y="202.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >Opus or Sonnet,</text>
+<text x="640.3" y="218.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >per job</text>
+<path d="M799.7 85.0 L875.0 128.5 L875.0 215.5 L799.7 259.0 L724.3 215.5 L724.3 128.5 Z" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.6"/>
+<circle cx="799.6743371481683" cy="136.00000000000003" r="17" stroke="#1d4ed8" stroke-width="2.4" fill="none"/><text x="799.7" y="142.5" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="800" fill="#1d4ed8" >A</text><path d="M815.6743371481683 115.00000000000003 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2z" fill="#1d4ed8"/>
+<text x="799.7" y="182.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#09090b" >Auto mode</text>
+<text x="799.7" y="202.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >answers for you</text>
+<text x="799.7" y="218.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >while you're away</text>
+<path d="M879.3 223.0 L954.7 266.5 L954.7 353.5 L879.3 397.0 L804.0 353.5 L804.0 266.5 Z" fill="#eff6ff" stroke="#d97706" stroke-width="2"/>
+<path d="M861.3 280.0 A18 18 0 0 1 870.3 264.4" stroke="#16a34a" stroke-width="5" fill="none"/><path d="M871.2 264.0 A18 18 0 0 1 887.5 264.0" stroke="#d97706" stroke-width="5" fill="none"/><path d="M888.3 264.4 A18 18 0 0 1 897.3 280.0" stroke="#dc2626" stroke-width="5" fill="none"/><path d="M879.3486742963366 280.0 L871.3 268.5" stroke="#1d4ed8" stroke-width="2.6" stroke-linecap="round"/><circle cx="879.3486742963366" cy="280.0" r="3.5" fill="#1d4ed8"/>
+<text x="879.3" y="320.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#09090b" >CPU &amp; RAM guard</text>
+<text x="879.3" y="340.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >pauses work before</text>
+<text x="879.3" y="356.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >the machine chokes</text>
+<path d="M799.7 361.0 L875.0 404.5 L875.0 491.5 L799.7 535.0 L724.3 491.5 L724.3 404.5 Z" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.6"/>
+<path d="M807.2 399.0 A15 15 0 1 1 792.2 399.0" stroke="#1d4ed8" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M808.2 390.0 L807.2 399.0 L798.2 397.0" stroke="#1d4ed8" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M799.6743371481683 406.0 V418.0 M793.6743371481683 412.0 H805.6743371481683" stroke="#1d4ed8" stroke-width="2.4" stroke-linecap="round"/>
+<text x="799.7" y="458.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#09090b" >Self-healing</text>
+<text x="799.7" y="478.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >restarts anything</text>
+<text x="799.7" y="494.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >that gets stuck</text>
+<path d="M640.3 361.0 L715.7 404.5 L715.7 491.5 L640.3 535.0 L565.0 491.5 L565.0 404.5 Z" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.6"/>
+<g stroke="#1d4ed8" stroke-width="2.4" fill="none"><ellipse cx="640.3256628518317" cy="400.0" rx="15" ry="5.5"/><path d="M625.3256628518317 400.0 V424.0 A15 5.5 0 0 0 655.3256628518317 424.0 V400.0"/><path d="M625.3256628518317 412.0 A15 5.5 0 0 0 655.3256628518317 412.0"/></g>
+<text x="640.3" y="458.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#09090b" >Never forgets</text>
+<text x="640.3" y="478.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >state survives</text>
+<text x="640.3" y="494.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >compaction</text>
+<path d="M560.7 223.0 L636.0 266.5 L636.0 353.5 L560.7 397.0 L485.3 353.5 L485.3 266.5 Z" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.6"/>
+<path d="M560.6513257036634 255.0 C564.6513257036634 265.0 575.6513257036634 270.0 573.6513257036634 281.0 C572.6513257036634 289.0 566.6513257036634 293.0 560.6513257036634 293.0 C553.6513257036634 293.0 547.6513257036634 288.0 547.6513257036634 280.0 C547.6513257036634 273.0 552.6513257036634 270.0 554.6513257036634 264.0 C557.6513257036634 268.0 557.6513257036634 272.0 559.6513257036634 274.0 C561.6513257036634 268.0 560.6513257036634 262.0 560.6513257036634 255.0Z" stroke="#1d4ed8" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+<text x="560.7" y="320.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#09090b" >Warm caches</text>
+<text x="560.7" y="340.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >fewer tokens on</text>
+<text x="560.7" y="356.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#52525b" >idle agents</text>
+<path d="M720.0 223.0 L795.3 266.5 L795.3 353.5 L720.0 397.0 L644.7 353.5 L644.7 266.5 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="2.4"/>
+<text x="720.0" y="302.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="400" fill="#09090b" >🐝</text>
+<text x="720.0" y="338.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#09090b" letter-spacing="-0.5">Hive</text>
+<text x="720.0" y="358.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#52525b" >orchestrator</text>
+<path d="M961 310 C1001 310, 981 150, 1012 150" stroke="#2563eb" stroke-width="1.6" fill="none" marker-end="url(#ab)"/>
+<rect x="1020" y="127" width="64" height="46" rx="6" fill="#ffffff" stroke="#d4d4d8" stroke-width="1.6"/><path d="M1020 138 H1084" stroke="#d4d4d8" stroke-width="1.2"/><circle cx="1028" cy="132.5" r="2" fill="#f87171"/><circle cx="1035" cy="132.5" r="2" fill="#fbbf24"/><circle cx="1042" cy="132.5" r="2" fill="#4ade80"/><text x="1030.0" y="161.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="15" font-weight="700" fill="#1d4ed8" >&gt;_</text>
+<text x="1098.0" y="148.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#09090b" >Worker</text>
+<text x="1098.0" y="168.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#16a34a" >building</text>
+<path d="M961 310 C1001 310, 981 250, 1012 250" stroke="#2563eb" stroke-width="1.6" fill="none" marker-end="url(#ab)"/>
+<rect x="1020" y="227" width="64" height="46" rx="6" fill="#ffffff" stroke="#d4d4d8" stroke-width="1.6"/><path d="M1020 238 H1084" stroke="#d4d4d8" stroke-width="1.2"/><circle cx="1028" cy="232.5" r="2" fill="#f87171"/><circle cx="1035" cy="232.5" r="2" fill="#fbbf24"/><circle cx="1042" cy="232.5" r="2" fill="#4ade80"/><text x="1030.0" y="261.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="15" font-weight="700" fill="#1d4ed8" >&gt;_</text>
+<text x="1098.0" y="248.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#09090b" >Worker</text>
+<text x="1098.0" y="268.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#1d4ed8" >PR, CI running</text>
+<path d="M961 310 C1001 310, 981 350, 1012 350" stroke="#2563eb" stroke-width="1.6" fill="none" marker-end="url(#ab)"/>
+<rect x="1020" y="327" width="64" height="46" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.6"/><rect x="1026" y="332" width="52" height="7" rx="3.5" fill="none" stroke="#2563eb" stroke-width="1.2"/><circle cx="1052" cy="357" r="9" stroke="#1d4ed8" stroke-width="2" fill="none"/><path d="M1043 357 H1061 M1052 348 Q1046 357 1052 366 Q1058 357 1052 348" stroke="#1d4ed8" stroke-width="1.6" fill="none"/>
+<text x="1098.0" y="348.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#09090b" >Browser agent</text>
+<text x="1098.0" y="368.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#52525b" >checks the UI</text>
+<path d="M961 310 C1001 310, 981 450, 1012 450" stroke="#d97706" stroke-width="1.6" fill="none" stroke-dasharray="5 5" marker-end="url(#aa)"/>
+<rect x="1020" y="427" width="64" height="46" rx="6" fill="#ffffff" stroke="#71717a" stroke-width="1.6" stroke-dasharray="4 4"/><path d="M1020 438 H1084" stroke="#71717a" stroke-width="1.2" stroke-dasharray="4 4"/><circle cx="1028" cy="432.5" r="2" fill="#71717a"/><circle cx="1035" cy="432.5" r="2" fill="#71717a"/><circle cx="1042" cy="432.5" r="2" fill="#71717a"/><path d="M1047 447 V465 M1057 447 V465" stroke="#d97706" stroke-width="4" stroke-linecap="round"/>
+<text x="1098.0" y="448.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#71717a" >On hold</text>
+<text x="1098.0" y="468.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#d97706" >machine busy</text>
+<path d="M1250 310 C1275 310, 1270 200, 1292 200" stroke="#a1a1aa" stroke-width="1.6" fill="none" marker-end="url(#ar)"/>
+<circle cx="1326" cy="200" r="28" fill="#dbeafe"/>
+<g stroke="#1d4ed8" stroke-width="2.2" fill="none" stroke-linecap="round"><circle cx="1318" cy="189" r="3.5"/><circle cx="1318" cy="211" r="3.5"/><circle cx="1335" cy="201" r="3.5"/><path d="M1318 192.5 V207.5 M1318 193 Q1318 201 1331.5 201"/></g>
+<text x="1366.0" y="206.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#09090b" >Merged PRs</text>
+<path d="M1250 310 C1275 310, 1270 310, 1292 310" stroke="#a1a1aa" stroke-width="1.6" fill="none" marker-end="url(#ar)"/>
+<circle cx="1326" cy="310" r="28" fill="#dbeafe"/>
+<rect x="1313" y="299" width="26" height="22" rx="3" stroke="#1d4ed8" stroke-width="2.2" fill="none"/><path d="M1319 316 V311 M1325 316 V305 M1331 316 V309" stroke="#1d4ed8" stroke-width="2.6" stroke-linecap="round"/>
+<text x="1366.0" y="316.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#09090b" >Live panel</text>
+<path d="M1250 310 C1275 310, 1270 420, 1292 420" stroke="#a1a1aa" stroke-width="1.6" fill="none" marker-end="url(#ar)"/>
+<circle cx="1326" cy="420" r="28" fill="#dbeafe"/>
+<path d="M1314 415 h5 l7 -6 v22 l-7 -6 h-5z" stroke="#1d4ed8" stroke-width="2.2" fill="none" stroke-linejoin="round"/><path d="M1330 415 q4 5 0 10 M1334 411 q8 9 0 18" stroke="#1d4ed8" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<text x="1366.0" y="426.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#09090b" >Voice &amp; Slack</text>
+<line x1="40" y1="580" x2="1480" y2="580" stroke="#d4d4d8" opacity="0.6"/>
+<text x="760.0" y="612.0" text-anchor="middle" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="14" font-weight="400" fill="#52525b" >~148k lines · 1,800+ tests · macOS · Windows · Linux</text>
 </svg>
