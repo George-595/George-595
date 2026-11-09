@@ -70,5 +70,8 @@ Uncomment once the first post is up — notes on building agent harnesses.
 
 ## Stack
 
-**Languages** TypeScript · JavaScript · Python · Bash &nbsp;|&nbsp; **Runtime** Node.js · React · Next.js &nbsp;|&nbsp; **Data & infra** PostgreSQL · Docker · Turborepo<br>
-**Agentic** Claude Code · skills & sub-agents · prompt caching &nbsp;|&nbsp; **Workflow** Git · pnpm · Warp · Obsidian · Wispr Flow
+**Languages** — TypeScript · JavaScript · Python · Bash<br>
+**Runtime** — Node.js · React · Next.js<br>
+**Data & infra** — PostgreSQL · Docker · Turborepo<br>
+**Agentic** — Claude Code · skills & sub-agents · prompt caching<br>
+**Workflow** — Git · pnpm · Warp · Obsidian · Wispr Flow
