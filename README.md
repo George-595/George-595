@@ -1,8 +1,9 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./banner-strata.png" />
-    <source media="(prefers-color-scheme: light)" srcset="./banner-strata-light.png" />
-    <img src="./banner-strata.png" width="100%" alt="George Allan — Software Engineer at NCS. Building the harnesses teams ship with." />
+    <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="./assets/banner-mobile-light.svg" />
+    <source media="(max-width: 767px)" srcset="./assets/banner-mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
+    <img src="./assets/banner.svg" width="100%" alt="George Allan. Software Engineer, building the harnesses teams ship with. Rocks to software to agents, NCS." />
   </picture>
 </div>
 
