@@ -10,8 +10,8 @@
 <p align="center"><b>Choices beat talent. Shipping beats credentials.</b></p>
 
 <div align="center">
-  <a href="https://ncs.agency/"><img src="https://img.shields.io/badge/NCS-ncs.agency-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="NCS website" /></a>
-  <a href="https://www.linkedin.com/in/george-allan-3479a0237"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://ncs.agency/"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-ncs-light.svg" /><img src="./assets/link-ncs.svg" height="38" alt="ncs.agency" /></picture></a>
+  <a href="https://www.linkedin.com/in/george-allan-3479a0237"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-linkedin-light.svg" /><img src="./assets/link-linkedin.svg" height="38" alt="LinkedIn" /></picture></a>
 </div>
 
 ## About
