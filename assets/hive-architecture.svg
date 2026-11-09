@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1390" height="730" viewBox="0 0 1390 730" fill="none" role="img" aria-label="Hive: work from you, Slack and Teams, tickets and nightly CI flows into Hive, which picks the model, runs in auto mode, guards CPU and RAM, heals itself, survives compaction and keeps the prompt cache warm. It runs Claude Code workers and a browser agent, holds work when the machine is busy, and ships merged PRs, a live panel and voice and Slack updates. Used by every engineer at NCS.">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1390" y2="730" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#09090b"/><stop offset="1" stop-color="#18181b"/></linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" width="1390" height="660" viewBox="0 0 1390 660" fill="none" role="img" aria-label="Hive: work from you, Slack and Teams, tickets and nightly CI flows into Hive, which picks the model, runs in auto mode, guards CPU and RAM, heals itself, survives compaction and keeps the prompt cache warm. It runs Claude Code workers and a browser agent, holds work when the machine is busy, and ships merged PRs, a live panel and voice and Slack updates.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1390" y2="660" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#09090b"/><stop offset="1" stop-color="#18181b"/></linearGradient>
 <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#52525b"/></marker>
 <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#2563eb"/></marker>
 <marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#fbbf24"/></marker>
 </defs>
-<rect width="1390" height="730" rx="14" fill="url(#bg)"/>
+<rect width="1390" height="660" rx="14" fill="url(#bg)"/>
 <text x="212.0" y="187.0" text-anchor="end" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >You</text>
 <circle cx="250" cy="180" r="28" fill="#1e293b"/>
 <g transform="translate(250.0 180.0) scale(1.1) translate(-250.0 -180.0)"><circle cx="250" cy="174" r="6" stroke="#93c5fd" stroke-width="2.2" fill="none"/><path d="M239 193 Q250 177 261 193" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linecap="round"/></g>
@@ -82,7 +82,4 @@
 <circle cx="1174" cy="430" r="28" fill="#1e293b"/>
 <g transform="translate(1174.0 430.0) scale(1.1) translate(-1174.0 -430.0)"><path d="M1162 425 h5 l7 -6 v22 l-7 -6 h-5z" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linejoin="round"/><path d="M1178 425 q4 5 0 10 M1182 421 q8 9 0 18" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linecap="round"/></g>
 <text x="1214.0" y="437.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Voice &amp; Slack</text>
-<line x1="40" y1="664" x2="1350" y2="664" stroke="#3f3f46" opacity="0.7"/>
-<g transform="translate(505.0 698.0) scale(1.1) translate(-505.0 -698.0)"><circle cx="496.0" cy="694.0" r="4.0" stroke="#93c5fd" stroke-width="2" fill="none"/><path d="M488.8 709 Q496.0 697 503.2 709" stroke="#93c5fd" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="514.0" cy="694.0" r="4.0" stroke="#93c5fd" stroke-width="2" fill="none"/><path d="M506.8 709 Q514.0 697 521.2 709" stroke="#93c5fd" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="505.0" cy="693.0" r="5.0" stroke="#93c5fd" stroke-width="2" fill="none"/><path d="M496.0 709 Q505.0 697 514.0 709" stroke="#93c5fd" stroke-width="2" fill="none" stroke-linecap="round"/></g>
-<text x="713.0" y="706.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#fafafa" >Used by every engineer at NCS</text>
 </svg>

@@ -21,12 +21,12 @@ I'm a software engineer at **NCS**, specialising in agentic systems: the harness
 
 ## 🐝 Hive
 
-My multi-agent orchestration system for Claude Code, now used across the company. Hand it a pile of work and it runs a team of agents through it, without melting your machine.
+A multi-agent orchestration system for Claude Code that I built. Hand it a pile of work and it runs a team of agents through it, without melting your machine.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hive-architecture.png" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/hive-architecture-light.png" />
-  <img src="./assets/hive-architecture.png" width="100%" alt="Hive: work from you, Slack and Teams, tickets and nightly CI flows into Hive, which picks the model, runs in auto mode, guards CPU and RAM, heals itself, survives compaction and keeps the prompt cache warm. It runs Claude Code workers and a browser agent, makes new workers wait when CPU or RAM is tight, and ships merged PRs, a live panel and voice and Slack updates. Used by every engineer at NCS." />
+  <img src="./assets/hive-architecture.png" width="100%" alt="Hive: work from you, Slack and Teams, tickets and nightly CI flows into Hive, which picks the model, runs in auto mode, guards CPU and RAM, heals itself, survives compaction and keeps the prompt cache warm. It runs Claude Code workers and a browser agent, makes new workers wait when CPU or RAM is tight, and ships merged PRs, a live panel and voice and Slack updates." />
 </picture>
 
 ## Also built
