@@ -41,9 +41,9 @@ I studied **Geology** at Southampton and taught myself to code the long way roun
 
 ### 🐝 Hive — *multi-agent orchestration for Claude Code*
 
-I designed and built Hive, a multi-agent orchestration system that's been adopted across the company. Hive coordinates a team of Claude Code agents on a single piece of work, so engineers direct the work instead of babysitting one chat at a time.
+I designed and built Hive, a multi-agent orchestration system that's been adopted across the company. Hive splits a batch of work into independent jobs and runs each one in its own Claude Code session, so engineers direct the work instead of babysitting one chat at a time.
 
-- **Token-efficient by design:** built around prompt caching, so agents reuse shared context instead of paying for it again on every call
+- **Token-efficient by design:** keeps each waiting agent's prompt cache warm, so it doesn't pay for a full cache rebuild when it picks back up
 - **Resource-aware:** manages CPU load so running many agents doesn't grind a dev machine to a halt
 - **Adopted company-wide:** it started as my own workflow and became the default way of building
 
