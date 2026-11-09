@@ -26,7 +26,7 @@ My multi-agent orchestration system for Claude Code, now used across the company
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hive-architecture.png" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/hive-architecture-light.png" />
-  <img src="./assets/hive-architecture.png" width="100%" alt="Hive: work from you, Slack and Teams, tickets and nightly CI goes into Hive, which picks the model, runs in auto mode while you are away, guards CPU and RAM so the machine never chokes, keeps caches warm, never forgets and heals itself. It runs a team of Claude Code workers and a browser agent, and ships merged pull requests, a live panel and voice and Slack updates." />
+  <img src="./assets/hive-architecture.png" width="100%" alt="Hive: work from you, Slack and Teams, tickets and nightly CI flows into Hive, which picks the model, runs in auto mode, guards CPU and RAM, heals itself, survives compaction and keeps the prompt cache warm. It runs Claude Code workers and a browser agent, holds work when the machine is busy, and ships merged PRs, a live panel and voice and Slack updates. Used by every engineer at NCS." />
 </picture>
 
 ## Also built

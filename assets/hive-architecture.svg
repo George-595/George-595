@@ -1,94 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="640" viewBox="0 0 1520 640" fill="none" role="img" aria-label="Hive: work from you, Slack and Teams, tickets and nightly CI goes into Hive, which picks the model, runs in auto mode while you are away, guards CPU and RAM so the machine never chokes, keeps caches warm, never forgets and heals itself. It runs a team of Claude Code workers and a browser agent, and ships merged pull requests, a live panel and voice and Slack updates.">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1520" y2="640" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#09090b"/><stop offset="1" stop-color="#18181b"/></linearGradient><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#52525b"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#2563eb"/></marker><marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#fbbf24"/></marker></defs>
-<rect width="1520" height="640" rx="14" fill="url(#bg)"/>
-<text x="40.0" y="58.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#71717a" letter-spacing="1.5">INPUT</text>
-<text x="1020.0" y="58.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#71717a" letter-spacing="1.5">WORKERS</text>
-<text x="1310.0" y="58.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="13" font-weight="600" fill="#71717a" letter-spacing="1.5">OUTPUT</text>
-<circle cx="74" cy="150" r="28" fill="#1e293b"/>
-<circle cx="74" cy="144" r="6" stroke="#93c5fd" stroke-width="2.2" fill="none"/><path d="M63 163 Q74 147 85 163" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-<text x="114.0" y="156.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#fafafa" >You</text>
-<path d="M290 150 C380 150, 400 310, 522 310" stroke="#52525b" stroke-width="1.6" fill="none"/>
-<circle cx="74" cy="250" r="28" fill="#1e293b"/>
-<path d="M61 240 h26 a3 3 0 0 1 3 3 v13 a3 3 0 0 1 -3 3 h-15 l-7 6 v-6 h-4 a3 3 0 0 1 -3 -3 v-13 a3 3 0 0 1 3 -3z" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linejoin="round"/><circle cx="68" cy="249" r="1.8" fill="#93c5fd"/><circle cx="74" cy="249" r="1.8" fill="#93c5fd"/><circle cx="80" cy="249" r="1.8" fill="#93c5fd"/>
-<text x="114.0" y="256.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#fafafa" >Slack &amp; Teams</text>
-<path d="M290 250 C380 250, 400 310, 522 310" stroke="#52525b" stroke-width="1.6" fill="none"/>
-<circle cx="74" cy="350" r="28" fill="#1e293b"/>
-<path d="M65 337 h12 l6 6 v20 h-18z M77 337 v6 h6" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linejoin="round"/><path d="M69 351 h10 M69 356 h10" stroke="#93c5fd" stroke-width="2" stroke-linecap="round"/>
-<text x="114.0" y="356.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#fafafa" >Tickets &amp; notes</text>
-<path d="M290 350 C380 350, 400 310, 522 310" stroke="#52525b" stroke-width="1.6" fill="none"/>
-<circle cx="74" cy="450" r="28" fill="#1e293b"/>
-<circle cx="74" cy="450" r="12" stroke="#93c5fd" stroke-width="2.2" fill="none"/><path d="M69 445 L79 455 M79 445 L69 455" stroke="#f87171" stroke-width="2.6" stroke-linecap="round"/>
-<text x="114.0" y="456.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#fafafa" >Nightly CI</text>
-<path d="M290 450 C380 450, 400 310, 522 310" stroke="#52525b" stroke-width="1.6" fill="none"/>
-<path d="M668.0 230.3 L625.0 304.8 L539.0 304.8 L496.0 230.3 L539.0 155.8 L625.0 155.8 Z" fill="#0f172a" stroke="#1e3a8a" stroke-width="1.6"/>
-<g stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linecap="round"><path d="M582.0 208.32566285183162 V196.32566285183162 M582.0 196.32566285183162 L570.0 184.32566285183162 M582.0 196.32566285183162 L594.0 184.32566285183162"/><circle cx="569.0" cy="181.32566285183162" r="4.5"/><circle cx="595.0" cy="181.32566285183162" r="4.5"/><circle cx="582.0" cy="211.32566285183162" r="4.5"/></g>
-<text x="582.0" y="240.3" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#fafafa" >Picks the model</text>
-<text x="582.0" y="260.3" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >Opus or Sonnet,</text>
-<text x="582.0" y="276.3" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >per job</text>
-<path d="M806.0 150.7 L763.0 225.1 L677.0 225.1 L634.0 150.7 L677.0 76.2 L763.0 76.2 Z" fill="#0f172a" stroke="#1e3a8a" stroke-width="1.6"/>
-<circle cx="720.0" cy="114.6513257036633" r="17" stroke="#93c5fd" stroke-width="2.4" fill="none"/><text x="720.0" y="121.2" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="800" fill="#93c5fd" >A</text><path d="M736.0 93.6513257036633 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2z" fill="#93c5fd"/>
-<text x="720.0" y="160.7" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#fafafa" >Auto mode</text>
-<text x="720.0" y="180.7" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >answers for you</text>
-<text x="720.0" y="196.7" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >while you're away</text>
-<path d="M944.0 230.3 L901.0 304.8 L815.0 304.8 L772.0 230.3 L815.0 155.8 L901.0 155.8 Z" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
-<path d="M840.0 200.3 A18 18 0 0 1 849.0 184.7" stroke="#4ade80" stroke-width="5" fill="none"/><path d="M849.8 184.3 A18 18 0 0 1 866.2 184.3" stroke="#fbbf24" stroke-width="5" fill="none"/><path d="M867.0 184.7 A18 18 0 0 1 876.0 200.3" stroke="#f87171" stroke-width="5" fill="none"/><path d="M858.0 200.32566285183157 L850.0 188.9" stroke="#93c5fd" stroke-width="2.6" stroke-linecap="round"/><circle cx="858.0" cy="200.32566285183157" r="3.5" fill="#93c5fd"/>
-<text x="858.0" y="240.3" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#fafafa" >CPU &amp; RAM guard</text>
-<text x="858.0" y="260.3" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >pauses work before</text>
-<text x="858.0" y="276.3" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >the machine chokes</text>
-<path d="M944.0 389.7 L901.0 464.2 L815.0 464.2 L772.0 389.7 L815.0 315.2 L901.0 315.2 Z" fill="#0f172a" stroke="#1e3a8a" stroke-width="1.6"/>
-<path d="M865.5 340.7 A15 15 0 1 1 850.5 340.7" stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M866.5 331.7 L865.5 340.7 L856.5 338.7" stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M858.0 347.6743371481683 V359.6743371481683 M852.0 353.6743371481683 H864.0" stroke="#93c5fd" stroke-width="2.4" stroke-linecap="round"/>
-<text x="858.0" y="399.7" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#fafafa" >Self-healing</text>
-<text x="858.0" y="419.7" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >restarts anything</text>
-<text x="858.0" y="435.7" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >that gets stuck</text>
-<path d="M806.0 469.3 L763.0 543.8 L677.0 543.8 L634.0 469.3 L677.0 394.9 L763.0 394.9 Z" fill="#0f172a" stroke="#1e3a8a" stroke-width="1.6"/>
-<g stroke="#93c5fd" stroke-width="2.4" fill="none"><ellipse cx="720.0" cy="421.3486742963367" rx="15" ry="5.5"/><path d="M705.0 421.3486742963367 V445.3486742963367 A15 5.5 0 0 0 735.0 445.3486742963367 V421.3486742963367"/><path d="M705.0 433.3486742963367 A15 5.5 0 0 0 735.0 433.3486742963367"/></g>
-<text x="720.0" y="479.3" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#fafafa" >Never forgets</text>
-<text x="720.0" y="499.3" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >state survives</text>
-<text x="720.0" y="515.3" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >compaction</text>
-<path d="M668.0 389.7 L625.0 464.2 L539.0 464.2 L496.0 389.7 L539.0 315.2 L625.0 315.2 Z" fill="#0f172a" stroke="#1e3a8a" stroke-width="1.6"/>
-<path d="M582.0 334.6743371481683 C586.0 344.6743371481683 597.0 349.6743371481683 595.0 360.6743371481683 C594.0 368.6743371481683 588.0 372.6743371481683 582.0 372.6743371481683 C575.0 372.6743371481683 569.0 367.6743371481683 569.0 359.6743371481683 C569.0 352.6743371481683 574.0 349.6743371481683 576.0 343.6743371481683 C579.0 347.6743371481683 579.0 351.6743371481683 581.0 353.6743371481683 C583.0 347.6743371481683 582.0 341.6743371481683 582.0 334.6743371481683Z" stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
-<text x="582.0" y="399.7" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#fafafa" >Warm caches</text>
-<text x="582.0" y="419.7" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >fewer tokens on</text>
-<text x="582.0" y="435.7" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#a1a1aa" >idle agents</text>
-<path d="M806.0 310.0 L763.0 384.5 L677.0 384.5 L634.0 310.0 L677.0 235.5 L763.0 235.5 Z" fill="#172554" stroke="#2563eb" stroke-width="2.4"/>
-<path d="M522 310 H632" stroke="#52525b" stroke-width="2" marker-end="url(#ar)"/>
-<path d="M806 310 H918" stroke="#2563eb" stroke-width="2"/>
-<circle cx="806" cy="310" r="3.5" fill="#2563eb"/>
-<text x="720.0" y="302.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="400" fill="#fafafa" >🐝</text>
-<text x="720.0" y="338.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#fafafa" letter-spacing="-0.5">Hive</text>
-<text x="720.0" y="358.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#a1a1aa" >orchestrator</text>
-<path d="M918 310 C968 310, 958 150, 1012 150" stroke="#2563eb" stroke-width="1.6" fill="none" marker-end="url(#ab)"/>
-<rect x="1020" y="127" width="64" height="46" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="1.6"/><path d="M1020 138 H1084" stroke="#3f3f46" stroke-width="1.2"/><circle cx="1028" cy="132.5" r="2" fill="#f87171"/><circle cx="1035" cy="132.5" r="2" fill="#fbbf24"/><circle cx="1042" cy="132.5" r="2" fill="#4ade80"/><text x="1030.0" y="161.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="15" font-weight="700" fill="#93c5fd" >&gt;_</text>
-<text x="1098.0" y="148.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#fafafa" >Worker</text>
-<text x="1098.0" y="168.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#4ade80" >building</text>
-<path d="M918 310 C968 310, 958 250, 1012 250" stroke="#2563eb" stroke-width="1.6" fill="none" marker-end="url(#ab)"/>
-<rect x="1020" y="227" width="64" height="46" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="1.6"/><path d="M1020 238 H1084" stroke="#3f3f46" stroke-width="1.2"/><circle cx="1028" cy="232.5" r="2" fill="#f87171"/><circle cx="1035" cy="232.5" r="2" fill="#fbbf24"/><circle cx="1042" cy="232.5" r="2" fill="#4ade80"/><text x="1030.0" y="261.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="15" font-weight="700" fill="#93c5fd" >&gt;_</text>
-<text x="1098.0" y="248.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#fafafa" >Worker</text>
-<text x="1098.0" y="268.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#93c5fd" >PR, CI running</text>
-<path d="M918 310 C968 310, 958 350, 1012 350" stroke="#2563eb" stroke-width="1.6" fill="none" marker-end="url(#ab)"/>
-<rect x="1020" y="327" width="64" height="46" rx="6" fill="#18181b" stroke="#2563eb" stroke-width="1.6"/><rect x="1026" y="332" width="52" height="7" rx="3.5" fill="none" stroke="#2563eb" stroke-width="1.2"/><circle cx="1052" cy="357" r="9" stroke="#93c5fd" stroke-width="2" fill="none"/><path d="M1043 357 H1061 M1052 348 Q1046 357 1052 366 Q1058 357 1052 348" stroke="#93c5fd" stroke-width="1.6" fill="none"/>
-<text x="1098.0" y="348.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#fafafa" >Browser agent</text>
-<text x="1098.0" y="368.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#a1a1aa" >checks the UI</text>
-<path d="M918 310 C968 310, 958 450, 1012 450" stroke="#fbbf24" stroke-width="1.6" fill="none" stroke-dasharray="5 5" marker-end="url(#aa)"/>
-<rect x="1020" y="427" width="64" height="46" rx="6" fill="#18181b" stroke="#71717a" stroke-width="1.6" stroke-dasharray="4 4"/><path d="M1020 438 H1084" stroke="#71717a" stroke-width="1.2" stroke-dasharray="4 4"/><circle cx="1028" cy="432.5" r="2" fill="#71717a"/><circle cx="1035" cy="432.5" r="2" fill="#71717a"/><circle cx="1042" cy="432.5" r="2" fill="#71717a"/><path d="M1047 447 V465 M1057 447 V465" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
-<text x="1098.0" y="448.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#71717a" >On hold</text>
-<text x="1098.0" y="468.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#fbbf24" >machine busy</text>
-<path d="M1222 150 H1240" stroke="#52525b" stroke-width="1.6"/>
-<path d="M1222 250 H1240" stroke="#52525b" stroke-width="1.6"/>
-<path d="M1222 350 H1240" stroke="#52525b" stroke-width="1.6"/>
-<path d="M1240 150 V350" stroke="#52525b" stroke-width="1.6"/>
-<path d="M1240 250 C1268 250, 1264 170, 1290 170" stroke="#52525b" stroke-width="1.6" fill="none" marker-end="url(#ar)"/>
-<circle cx="1326" cy="170" r="28" fill="#1e293b"/>
-<g stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linecap="round"><circle cx="1318" cy="159" r="3.5"/><circle cx="1318" cy="181" r="3.5"/><circle cx="1335" cy="171" r="3.5"/><path d="M1318 162.5 V177.5 M1318 163 Q1318 171 1331.5 171"/></g>
-<text x="1366.0" y="176.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#fafafa" >Merged PRs</text>
-<path d="M1240 250 C1268 250, 1264 250, 1290 250" stroke="#52525b" stroke-width="1.6" fill="none" marker-end="url(#ar)"/>
-<circle cx="1326" cy="250" r="28" fill="#1e293b"/>
-<rect x="1313" y="239" width="26" height="22" rx="3" stroke="#93c5fd" stroke-width="2.2" fill="none"/><path d="M1319 256 V251 M1325 256 V245 M1331 256 V249" stroke="#93c5fd" stroke-width="2.6" stroke-linecap="round"/>
-<text x="1366.0" y="256.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#fafafa" >Live panel</text>
-<path d="M1240 250 C1268 250, 1264 330, 1290 330" stroke="#52525b" stroke-width="1.6" fill="none" marker-end="url(#ar)"/>
-<circle cx="1326" cy="330" r="28" fill="#1e293b"/>
-<path d="M1314 325 h5 l7 -6 v22 l-7 -6 h-5z" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linejoin="round"/><path d="M1330 325 q4 5 0 10 M1334 321 q8 9 0 18" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-<text x="1366.0" y="336.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#fafafa" >Voice &amp; Slack</text>
-<line x1="40" y1="580" x2="1480" y2="580" stroke="#3f3f46" opacity="0.6"/>
-<text x="760.0" y="612.0" text-anchor="middle" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="14" font-weight="400" fill="#a1a1aa" >~148k lines · 1,800+ tests · macOS · Windows · Linux</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1390" height="730" viewBox="0 0 1390 730" fill="none" role="img" aria-label="Hive: work from you, Slack and Teams, tickets and nightly CI flows into Hive, which picks the model, runs in auto mode, guards CPU and RAM, heals itself, survives compaction and keeps the prompt cache warm. It runs Claude Code workers and a browser agent, holds work when the machine is busy, and ships merged PRs, a live panel and voice and Slack updates. Used by every engineer at NCS.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1390" y2="730" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#09090b"/><stop offset="1" stop-color="#18181b"/></linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#52525b"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#2563eb"/></marker>
+<marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#fbbf24"/></marker>
+</defs>
+<rect width="1390" height="730" rx="14" fill="url(#bg)"/>
+<text x="212.0" y="187.0" text-anchor="end" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >You</text>
+<circle cx="250" cy="180" r="28" fill="#1e293b"/>
+<g transform="translate(250.0 180.0) scale(1.1) translate(-250.0 -180.0)"><circle cx="250" cy="174" r="6" stroke="#93c5fd" stroke-width="2.2" fill="none"/><path d="M239 193 Q250 177 261 193" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linecap="round"/></g>
+<path d="M280 180 H310" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<text x="212.0" y="287.0" text-anchor="end" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Slack &amp; Teams</text>
+<circle cx="250" cy="280" r="28" fill="#1e293b"/>
+<g transform="translate(250.0 280.0) scale(1.1) translate(-250.0 -280.0)"><path d="M237 270 h26 a3 3 0 0 1 3 3 v13 a3 3 0 0 1 -3 3 h-15 l-7 6 v-6 h-4 a3 3 0 0 1 -3 -3 v-13 a3 3 0 0 1 3 -3z" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linejoin="round"/><circle cx="244" cy="279" r="1.8" fill="#93c5fd"/><circle cx="250" cy="279" r="1.8" fill="#93c5fd"/><circle cx="256" cy="279" r="1.8" fill="#93c5fd"/></g>
+<path d="M280 280 H310" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<text x="212.0" y="387.0" text-anchor="end" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Tickets &amp; notes</text>
+<circle cx="250" cy="380" r="28" fill="#1e293b"/>
+<g transform="translate(250.0 380.0) scale(1.1) translate(-250.0 -380.0)"><path d="M241 367 h12 l6 6 v20 h-18z M253 367 v6 h6" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linejoin="round"/><path d="M245 381 h10 M245 386 h10" stroke="#93c5fd" stroke-width="2" stroke-linecap="round"/></g>
+<path d="M280 380 H310" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<text x="212.0" y="487.0" text-anchor="end" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Nightly CI</text>
+<circle cx="250" cy="480" r="28" fill="#1e293b"/>
+<g transform="translate(250.0 480.0) scale(1.1) translate(-250.0 -480.0)"><path d="M256 466 A14 14 0 1 0 263 488 A11 11 0 0 1 256 466Z" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linejoin="round"/><path d="M262 468 l1.2 3 3 1.2 -3 1.2 -1.2 3 -1.2 -3 -3 -1.2 3 -1.2z" fill="#93c5fd"/></g>
+<path d="M280 480 H310" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M310 180 V480" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M310 330 H365" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#ar)"/>
+<circle cx="310" cy="330" r="4" fill="#52525b"/>
+<path d="M620.0 38.6 L872.4 184.3 L872.4 475.7 L620.0 621.4 L367.6 475.7 L367.6 184.3 Z" fill="#2563eb" fill-opacity="0.06" stroke="#2563eb" stroke-opacity="0.55" stroke-width="2" stroke-linejoin="round"/>
+<path d="M567.0 248.6 L523.0 324.8 L435.0 324.8 L391.0 248.6 L435.0 172.4 L523.0 172.4 Z" fill="#0f172a" stroke="#1e3a8a" stroke-width="1.6"/>
+<g transform="translate(479.0 216.6) scale(1.25) translate(-479.0 -216.6)"><g stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linecap="round"><path d="M479.0 230.59361204426276 V218.59361204426276 M479.0 218.59361204426276 L467.0 206.59361204426276 M479.0 218.59361204426276 L491.0 206.59361204426276"/><circle cx="466.0" cy="203.59361204426276" r="4.5"/><circle cx="492.0" cy="203.59361204426276" r="4.5"/><circle cx="479.0" cy="233.59361204426276" r="4.5"/></g></g>
+<text x="479.0" y="264.6" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Picks the</text>
+<text x="479.0" y="288.6" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >model</text>
+<path d="M708.0 167.2 L664.0 243.4 L576.0 243.4 L532.0 167.2 L576.0 91.0 L664.0 91.0 Z" fill="#0f172a" stroke="#1e3a8a" stroke-width="1.6"/>
+<g transform="translate(620.0 149.2) scale(1.25) translate(-620.0 -149.2)"><circle cx="620.0" cy="149.18722408852554" r="17" stroke="#93c5fd" stroke-width="2.4" fill="none"/><text x="620.0" y="155.7" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="800" fill="#93c5fd" >A</text><path d="M636.0 128.18722408852554 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2z" fill="#93c5fd"/></g>
+<text x="620.0" y="201.2" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Auto mode</text>
+<path d="M849.0 248.6 L805.0 324.8 L717.0 324.8 L673.0 248.6 L717.0 172.4 L805.0 172.4 Z" fill="#0f172a" stroke="#fbbf24" stroke-width="2.4"/>
+<g transform="translate(761.0 216.6) scale(1.25) translate(-761.0 -216.6)"><path d="M743.0 218.6 A18 18 0 0 1 752.0 203.0" stroke="#4ade80" stroke-width="5" fill="none"/><path d="M752.8 202.6 A18 18 0 0 1 769.2 202.6" stroke="#fbbf24" stroke-width="5" fill="none"/><path d="M770.0 203.0 A18 18 0 0 1 779.0 218.6" stroke="#f87171" stroke-width="5" fill="none"/><path d="M761.0 218.5936120442627 L753.0 207.1" stroke="#93c5fd" stroke-width="2.6" stroke-linecap="round"/><circle cx="761.0" cy="218.5936120442627" r="3.5" fill="#93c5fd"/></g>
+<text x="761.0" y="264.6" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >CPU &amp; RAM</text>
+<text x="761.0" y="288.6" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >guard</text>
+<path d="M849.0 411.4 L805.0 487.6 L717.0 487.6 L673.0 411.4 L717.0 335.2 L805.0 335.2 Z" fill="#0f172a" stroke="#1e3a8a" stroke-width="1.6"/>
+<g transform="translate(761.0 393.4) scale(1.25) translate(-761.0 -393.4)"><path d="M768.5 380.4 A15 15 0 1 1 753.5 380.4" stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M769.5 371.4 L768.5 380.4 L759.5 378.4" stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M761.0 387.4063879557372 V399.4063879557372 M755.0 393.4063879557372 H767.0" stroke="#93c5fd" stroke-width="2.4" stroke-linecap="round"/></g>
+<text x="761.0" y="445.4" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Self-healing</text>
+<path d="M708.0 492.8 L664.0 569.0 L576.0 569.0 L532.0 492.8 L576.0 416.6 L664.0 416.6 Z" fill="#0f172a" stroke="#1e3a8a" stroke-width="1.6"/>
+<g transform="translate(620.0 460.8) scale(1.25) translate(-620.0 -460.8)"><g stroke="#93c5fd" stroke-width="2.4" fill="none"><ellipse cx="620.0" cy="448.81277591147443" rx="15" ry="5.5"/><path d="M605.0 448.81277591147443 V472.81277591147443 A15 5.5 0 0 0 635.0 472.81277591147443 V448.81277591147443"/><path d="M605.0 460.81277591147443 A15 5.5 0 0 0 635.0 460.81277591147443"/></g></g>
+<text x="620.0" y="508.8" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Survives</text>
+<text x="620.0" y="532.8" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >compaction</text>
+<path d="M567.0 411.4 L523.0 487.6 L435.0 487.6 L391.0 411.4 L435.0 335.2 L523.0 335.2 Z" fill="#0f172a" stroke="#1e3a8a" stroke-width="1.6"/>
+<g transform="translate(479.0 393.4) scale(1.25) translate(-479.0 -393.4)"><path d="M479.0 374.4063879557372 C483.0 384.4063879557372 494.0 389.4063879557372 492.0 400.4063879557372 C491.0 408.4063879557372 485.0 412.4063879557372 479.0 412.4063879557372 C472.0 412.4063879557372 466.0 407.4063879557372 466.0 399.4063879557372 C466.0 392.4063879557372 471.0 389.4063879557372 473.0 383.4063879557372 C476.0 387.4063879557372 476.0 391.4063879557372 478.0 393.4063879557372 C480.0 387.4063879557372 479.0 381.4063879557372 479.0 374.4063879557372Z" stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linejoin="round"/></g>
+<text x="479.0" y="445.4" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Warm cache</text>
+<path d="M708.0 330.0 L664.0 406.2 L576.0 406.2 L532.0 330.0 L576.0 253.8 L664.0 253.8 Z" fill="#172554" stroke="#2563eb" stroke-width="2.6"/>
+<text x="620.0" y="326.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="46" font-weight="400" fill="#fafafa" >🐝</text>
+<text x="620.0" y="372.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="34" font-weight="800" fill="#fafafa" letter-spacing="-0.6">Hive</text>
+<path d="M872 330 H900" stroke="#2563eb" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<circle cx="872" cy="330" r="4.5" fill="#2563eb"/>
+<path d="M900 180 V380" stroke="#2563eb" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M900 380 V480" stroke="#fbbf24" stroke-width="2.2" stroke-dasharray="5 5" fill="none"/>
+<circle cx="900" cy="330" r="4" fill="#2563eb"/>
+<path d="M900 180 H918" stroke="#2563eb" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#ab)"/>
+<rect x="926" y="157" width="64" height="46" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="1.6"/><path d="M926 168 H990" stroke="#3f3f46" stroke-width="1.2"/><circle cx="934" cy="162.5" r="2" fill="#f87171"/><circle cx="941" cy="162.5" r="2" fill="#fbbf24"/><circle cx="948" cy="162.5" r="2" fill="#4ade80"/><text x="936.0" y="191.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="15" font-weight="700" fill="#93c5fd" >&gt;_</text>
+<text x="1004.0" y="187.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Worker</text>
+<path d="M900 280 H918" stroke="#2563eb" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#ab)"/>
+<rect x="926" y="257" width="64" height="46" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="1.6"/><path d="M926 268 H990" stroke="#3f3f46" stroke-width="1.2"/><circle cx="934" cy="262.5" r="2" fill="#f87171"/><circle cx="941" cy="262.5" r="2" fill="#fbbf24"/><circle cx="948" cy="262.5" r="2" fill="#4ade80"/><text x="936.0" y="291.0" text-anchor="start" font-family="'SF Mono','JetBrains Mono',ui-monospace,Menlo,monospace" font-size="15" font-weight="700" fill="#93c5fd" >&gt;_</text>
+<text x="1004.0" y="287.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Worker</text>
+<path d="M900 380 H918" stroke="#2563eb" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#ab)"/>
+<rect x="926" y="357" width="64" height="46" rx="6" fill="#18181b" stroke="#2563eb" stroke-width="1.6"/><rect x="932" y="362" width="52" height="7" rx="3.5" fill="none" stroke="#2563eb" stroke-width="1.2"/><circle cx="958" cy="387" r="9" stroke="#93c5fd" stroke-width="2" fill="none"/><path d="M949 387 H967 M958 378 Q952 387 958 396 Q964 387 958 378" stroke="#93c5fd" stroke-width="1.6" fill="none"/>
+<text x="1004.0" y="387.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Browser</text>
+<path d="M900 480 H918" stroke="#fbbf24" stroke-width="2.2" stroke-dasharray="5 5" fill="none" marker-end="url(#aa)"/>
+<rect x="926" y="457" width="64" height="46" rx="6" fill="#18181b" stroke="#71717a" stroke-width="1.6" stroke-dasharray="4 4"/><path d="M926 468 H990" stroke="#71717a" stroke-width="1.2" stroke-dasharray="4 4"/><circle cx="934" cy="462.5" r="2" fill="#71717a"/><circle cx="941" cy="462.5" r="2" fill="#71717a"/><circle cx="948" cy="462.5" r="2" fill="#71717a"/><path d="M953 477 V495 M963 477 V495" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+<text x="1004.0" y="487.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fbbf24" >On hold</text>
+<path d="M1098 180 H1120" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M1098 280 H1120" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M1098 380 H1120" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M1120 180 V430" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M1120 230 H1142" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#ar)"/>
+<circle cx="1174" cy="230" r="28" fill="#1e293b"/>
+<g transform="translate(1174.0 230.0) scale(1.1) translate(-1174.0 -230.0)"><g stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linecap="round"><circle cx="1166" cy="219" r="3.5"/><circle cx="1166" cy="241" r="3.5"/><circle cx="1183" cy="231" r="3.5"/><path d="M1166 222.5 V237.5 M1166 223 Q1166 231 1179.5 231"/></g></g>
+<text x="1214.0" y="237.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Merged PRs</text>
+<path d="M1120 330 H1142" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#ar)"/>
+<circle cx="1174" cy="330" r="28" fill="#1e293b"/>
+<g transform="translate(1174.0 330.0) scale(1.1) translate(-1174.0 -330.0)"><rect x="1161" y="319" width="26" height="22" rx="3" stroke="#93c5fd" stroke-width="2.2" fill="none"/><path d="M1167 336 V331 M1173 336 V325 M1179 336 V329" stroke="#93c5fd" stroke-width="2.6" stroke-linecap="round"/></g>
+<text x="1214.0" y="337.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Live panel</text>
+<path d="M1120 430 H1142" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round" marker-end="url(#ar)"/>
+<circle cx="1174" cy="430" r="28" fill="#1e293b"/>
+<g transform="translate(1174.0 430.0) scale(1.1) translate(-1174.0 -430.0)"><path d="M1162 425 h5 l7 -6 v22 l-7 -6 h-5z" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linejoin="round"/><path d="M1178 425 q4 5 0 10 M1182 421 q8 9 0 18" stroke="#93c5fd" stroke-width="2.2" fill="none" stroke-linecap="round"/></g>
+<text x="1214.0" y="437.0" text-anchor="start" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#fafafa" >Voice &amp; Slack</text>
+<line x1="40" y1="664" x2="1350" y2="664" stroke="#3f3f46" opacity="0.7"/>
+<g transform="translate(505.0 698.0) scale(1.1) translate(-505.0 -698.0)"><circle cx="496.0" cy="694.0" r="4.0" stroke="#93c5fd" stroke-width="2" fill="none"/><path d="M488.8 709 Q496.0 697 503.2 709" stroke="#93c5fd" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="514.0" cy="694.0" r="4.0" stroke="#93c5fd" stroke-width="2" fill="none"/><path d="M506.8 709 Q514.0 697 521.2 709" stroke="#93c5fd" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="505.0" cy="693.0" r="5.0" stroke="#93c5fd" stroke-width="2" fill="none"/><path d="M496.0 709 Q505.0 697 514.0 709" stroke="#93c5fd" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+<text x="713.0" y="706.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#fafafa" >Used by every engineer at NCS</text>
 </svg>
