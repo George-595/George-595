@@ -16,7 +16,7 @@
 
 ## About
 
-I'm a software engineer at **NCS**, specialising in agentic systems: the harnesses that let a whole engineering team ship with AI agents. I got here without a CS degree.
+I'm a software engineer at **NCS**, specialising in agentic systems: the harnesses that let a whole engineering team ship with AI agents.
 
 **Geology BSc** → **geotechnical engineer** → **self-taught developer** → **software engineer**
 
@@ -32,16 +32,16 @@ A multi-agent orchestration system for Claude Code that I built. Hand it a pile 
 
 ## Also built
 
-**[Quore Geotechnical](https://quoresoftware.com/quore-geotechnical)**: snap a photo of handwritten borehole logs and AI turns them into industry-standard `.ags` data.
+**Quore Geotechnical**: snap a photo of handwritten borehole logs and AI turns them into industry-standard `.ags` data.
 
-**[Furniture Friends](https://www.datchworth.com/furniture-friends/)**: a pro-bono AI inventory system for a local furniture charity.
+<a href="https://quoresoftware.com/quore-geotechnical"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-quore-light.svg" /><img src="./assets/link-quore.svg" height="38" alt="quoresoftware.com" /></picture></a>
+
+**Furniture Friends**: a pro-bono AI inventory system for a local furniture charity.
+
+<a href="https://www.datchworth.com/furniture-friends/"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-furniture-friends-light.svg" /><img src="./assets/link-furniture-friends.svg" height="38" alt="Furniture Friends" /></picture></a>
 
 <!--
 ## Writing
 Uncomment once the first post is up — notes on building agent harnesses.
 - [Post title](https://link) — one-line summary
 -->
-
-## Stack
-
-TypeScript · Python · Node.js · React · Next.js · PostgreSQL · Docker · Claude Code
