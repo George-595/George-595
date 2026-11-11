@@ -30,6 +30,16 @@ A multi-agent orchestration system for Claude Code that I built. Hand it a pile 
   <img src="./assets/hive-architecture.png" width="100%" alt="Hive: work from you, Slack and Teams, tickets and nightly CI flows into Hive, which picks the model, runs in auto mode, guards CPU and RAM, heals itself, survives compaction and keeps the prompt cache warm. It runs Claude Code workers and a browser agent, makes new workers wait when CPU or RAM is tight, and ships merged PRs, a live panel and voice and Slack updates." />
 </picture>
 
+## 📈 Merton mix
+
+The system that runs my own crypto, every night, on its own. A valuation signal and a trend signal push each coin's weight together, then the Merton mix splits the money between the coins that are on.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/merton-mix.png" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/merton-mix-light.png" />
+  <img src="./assets/merton-mix.png" width="100%" alt="Merton mix: Bitcoin, Ethereum and Solana prices feed Inventory Drift. Its valuation signal (cheap or dear against Bitcoin's power-law fair value) and its trend gate (above or below the 140-day average) push together: cheap in an uptrend buys fast, dear in a downtrend sells fast, and when they disagree the weight holds. Each coin gets a weight, with breakout sleeves for Ethereum and a rebound entry for Solana. The Merton mix splits the money between the coins whose own strategy is on, giving more to the best recent gain-to-loss, capped at each coin's weight, with the rest in cash. It rebalances daily and pauses for review if a health test says the edge has broken." />
+</picture>
+
 ## Also built
 
 **Glasswork UI**: the React component kit and app template I build with. Two skins, light and dark, and an assistant that acts through the app.
