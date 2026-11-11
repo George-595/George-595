@@ -37,7 +37,7 @@ The system that runs my own crypto, every night, on its own. A valuation signal 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/merton-mix.png" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/merton-mix-light.png" />
-  <img src="./assets/merton-mix.png" width="100%" alt="Merton mix: Bitcoin, Ethereum and Solana prices feed Inventory Drift. Its valuation signal (cheap or dear against Bitcoin's power-law fair value) and its trend gate (above or below the 140-day average) push together: cheap in an uptrend buys fast, dear in a downtrend sells fast, and when they disagree the weight holds. Each coin gets a weight, with breakout sleeves for Ethereum and a rebound entry for Solana. The Merton mix splits the money between the coins whose own strategy is on, giving more to the best recent gain-to-loss, capped at each coin's weight, with the rest in cash. It rebalances daily and pauses for review if a health test says the edge has broken." />
+  <img src="./assets/merton-mix.png" width="100%" alt="Merton mix: Bitcoin, Ethereum and Solana prices feed Inventory Drift, where a valuation signal and a trend gate push together: cheap in an uptrend buys fast, dear in a downtrend sells fast, and when they disagree the weight holds. Each coin gets a weight, then the Merton mix splits the money between the coins that are on, capped at each coin's weight, with the rest in cash. It rebalances daily and pauses for review if a health test fails." />
 </picture>
 
 ## Also built

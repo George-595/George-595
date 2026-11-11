@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1390" height="660" viewBox="0 0 1390 660" fill="none" role="img" aria-label="Merton mix: Bitcoin, Ethereum and Solana prices feed Inventory Drift. Its valuation signal (cheap or dear against Bitcoin's power-law fair value) and its trend gate (above or below the 140-day average) push together: cheap in an uptrend buys fast, dear in a downtrend sells fast, and when they disagree the weight holds. That gives each coin a weight, with breakout sleeves for Ethereum and a rebound entry for Solana. The Merton mix then splits the money between the coins whose own strategy is on, giving more to the best recent gain-to-loss, capped at each coin's weight, with the rest in cash. It rebalances daily and pauses for review if a health test says the edge has broken.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1390" height="660" viewBox="0 0 1390 660" fill="none" role="img" aria-label="Merton mix: Bitcoin, Ethereum and Solana prices feed Inventory Drift, where a valuation signal and a trend gate push together: cheap in an uptrend buys fast, dear in a downtrend sells fast, and when they disagree the weight holds. Each coin gets a weight, then the Merton mix splits the money between the coins that are on, capped at each coin's weight, with the rest in cash. It rebalances daily and pauses for review if a health test fails.">
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1390" y2="660" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#09090b"/><stop offset="1" stop-color="#18181b"/></linearGradient>
 <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#52525b"/></marker>
 <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#2563eb"/></marker>
@@ -28,13 +28,11 @@
 <path d="M334 166 C348 158 366 146 386 138" stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
 <path d="M334 172 L342 154 L350 170 L358 146 L366 158 L374 134 L382 148" stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="360.0" y="250.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#fafafa" >Valuation</text>
-<text x="360.0" y="272.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#a1a1aa" >BTC power law</text>
 <path d="M598.0 160.0 L567.0 213.7 L505.0 213.7 L474.0 160.0 L505.0 106.3 L567.0 106.3 Z" fill="#0f172a" stroke="#1e3a8a" stroke-width="1.6"/>
 <path d="M510 156 C526 152 544 148 562 142" stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
 <path d="M510 170 L522 164 L532 168 L542 150 L550 142 L560 132" stroke="#93c5fd" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="541" cy="150" r="4" fill="#fbbf24"/>
 <text x="536.0" y="250.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#fafafa" >Trend gate</text>
-<text x="536.0" y="272.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#a1a1aa" >140-day average</text>
 <text x="470.0" y="334.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#a1a1aa" >Uptrend</text>
 <text x="602.0" y="334.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#a1a1aa" >Downtrend</text>
 <text x="360.0" y="402.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#a1a1aa" >Cheap</text>
@@ -53,8 +51,8 @@
 <path d="M590.0 476.0 L602.0 488.0 L614.0 476.0" stroke="#f87171" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M590.0 490.0 L602.0 502.0 L614.0 490.0" stroke="#f87171" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="602.0" y="526.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#f87171" >Sell fast</text>
-<path d="M360 282 V374.0" stroke="#2563eb" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ab)"/>
-<path d="M536 282 V308" stroke="#2563eb" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ab)"/>
+<path d="M360 266 V374.0" stroke="#2563eb" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ab)"/>
+<path d="M536 266 V308" stroke="#2563eb" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ab)"/>
 <text x="470.0" y="586.0" text-anchor="middle" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="600" fill="#a1a1aa" >Each coin's weight drifts a step a day, 0 to 100%</text>
 <path d="M694 330 H716" stroke="#52525b" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="694" cy="330" r="4.5" fill="#2563eb"/>
