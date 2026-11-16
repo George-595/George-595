@@ -10,6 +10,7 @@
 <p align="center"><b>Choices beat talent. Shipping beats credentials.</b></p>
 
 <div align="center">
+  <a href="https://george595.dev"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-site-light.svg" /><img src="./assets/link-site.svg" height="38" alt="george595.dev" /></picture></a>
   <a href="https://ncs.agency/"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-ncs-light.svg" /><img src="./assets/link-ncs.svg" height="38" alt="ncs.agency" /></picture></a>
   <a href="https://www.linkedin.com/in/george-allan-3479a0237"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-linkedin-light.svg" /><img src="./assets/link-linkedin.svg" height="38" alt="LinkedIn" /></picture></a>
 </div>
