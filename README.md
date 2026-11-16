@@ -48,10 +48,6 @@ The system that runs my own crypto, every night, on its own. A valuation signal 
 
 <a href="https://github.com/George-595/glasswork-ui"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-glasswork-light.svg" /><img src="./assets/link-glasswork.svg" height="38" alt="Glasswork UI repository" /></picture></a>
 
-**Quore Geotechnical**: snap a photo of handwritten borehole logs and AI turns them into industry-standard `.ags` data.
-
-<a href="https://quoresoftware.com/quore-geotechnical"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-quore-light.svg" /><img src="./assets/link-quore.svg" height="38" alt="quoresoftware.com" /></picture></a>
-
 **Furniture Friends**: a pro-bono AI inventory system for a local furniture charity.
 
 <a href="https://www.datchworth.com/furniture-friends/"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-furniture-friends-light.svg" /><img src="./assets/link-furniture-friends.svg" height="38" alt="Furniture Friends" /></picture></a>
