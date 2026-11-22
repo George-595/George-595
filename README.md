@@ -21,14 +21,14 @@ I'm a software engineer at **NCS**, specialising in agentic systems: the harness
 
 **Geology BSc** → **geotechnical engineer** → **self-taught developer** → **software engineer**
 
-## 🐝 Hive
+## 🤖 Multi-agent AI orchestration system
 
 A multi-agent orchestration system for Claude Code that I built. Hand it a pile of work and it runs a team of agents through it, without melting your machine.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hive-architecture.png" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hive-architecture-light.png" />
-  <img src="./assets/hive-architecture.png" width="100%" alt="Hive: work from you, Slack and Teams, tickets and nightly CI flows into Hive, which picks the model, runs in auto mode, guards CPU and RAM, heals itself, survives compaction and keeps the prompt cache warm. It runs Claude Code workers and a browser agent, makes new workers wait when CPU or RAM is tight, and ships merged PRs, a live panel and voice and Slack updates." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/orchestration.png" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/orchestration-light.png" />
+  <img src="./assets/orchestration.png" width="100%" alt="A multi-agent AI orchestration system: work from you, team chat, tickets and nightly CI flows into the orchestrator, which picks the model, runs in auto mode, guards CPU and RAM, heals itself, survives compaction and keeps the prompt cache warm. It runs Claude Code workers and a browser agent, makes new workers wait when CPU or RAM is tight, and ships merged PRs, a live panel and status updates." />
 </picture>
 
 ## 📈 Merton mix
