@@ -17,7 +17,7 @@
 
 ## About
 
-I'm a software engineer at **NCS**, specialising in agentic systems: the harnesses that let a whole engineering team ship with AI agents.
+I'm a software engineer at **NCS**, specialising in agentic engineering and full-stack development.
 
 **Geology BSc** → **geotechnical engineer** → **self-taught developer** → **software engineer**
 
