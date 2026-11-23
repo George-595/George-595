@@ -49,7 +49,7 @@ The system that runs my own crypto, every night, on its own. A valuation signal 
 
 <a href="https://github.com/George-595/glasswork-ui"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-glasswork-light.svg" /><img src="./assets/link-glasswork.svg" height="38" alt="Glasswork UI repository" /></picture></a>
 
-**Furniture Friends**: a pro-bono AI inventory system for a local furniture charity.
+I volunteer for **Furniture Friends**, a local furniture charity, and built and maintain their AI-powered inventory management system.
 
 <a href="https://www.datchworth.com/furniture-friends/"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/link-furniture-friends-light.svg" /><img src="./assets/link-furniture-friends.svg" height="38" alt="Furniture Friends" /></picture></a>
 
